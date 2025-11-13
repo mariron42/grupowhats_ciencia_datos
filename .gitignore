@@ -1,0 +1,55 @@
+# Archivos de datos sensibles
+*.txt
+.env
+.env.local
+.env.*.local
+
+# Cache y archivos temporales
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Archivos de sistemas operativos
+Thumbs.db
+.DS_Store
+
+# Archivos personales
+*.xlsx
+*.xls
+*.csv
+notas_personales.txt
